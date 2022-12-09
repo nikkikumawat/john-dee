@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+.left{
+    width: 45%;
+}
+.left img{
+    width: 44%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+.right{
+    width: 55%;
+}
+.right .icon i{
+    font-size: 30px;
+    /* padding-left:37.5rem;
+    padding-top: 20px; */
+    padding: 10px;
+    background-color: white;
+
+}
+.right .icon{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.right .head{
+    text-align: center;
+    padding: 140px;
+}
+.right .head h1{
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+.right .head p{
+    padding-bottom: 20px;
+}
+.right .head a{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.head2 h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+.images .img{
+    width: 100%;
+}
+.images .img .img1 img{
+    width: 97%
+}
+.about{
+    padding: 50px 0;
+}
+.about h1{
+    padding-bottom: 20px;
+}
+.skill .sk1 h2{
+    font-size: 30px;
+}
+.skill .sk2 h4{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.skill .sk3,.sk5,.sk7{
+    border: 1px solid black;
+    background-color: lightgray;
+    color: white;
+}
+.skill .sk3 h4{
+    background-color: black;
+    color: white;
+    width: 95%;
+    text-align: center;
+}
+.skill .sk5 h4{
+    background-color: black;
+    color: white;
+    width: 85%;
+    text-align: center;
+}
+.skill .sk7 h4{
+    background-color: black;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    background-color: gray;
+    margin-top: 30px;
+}
+.flex .f1 h2{
+    color: white;
+    padding: 10px 54px;
+}
+.flex .f1 h4{
+    color: white;
+    padding: 10px 37px;
+}
+.anchor{
+    padding: 30px 0;
+}
+.anchor a{
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.f2{
+    display: flex;
+    padding: 10px 0;
+}
+.rs{
+    padding: 20px 0;
+}
+.f2 .ava img{
+    width: 70px;
+    border-radius: 50px;
+}
+span{
+    font-size: 23px;
+    padding-right: 30px;
+}
+.avaname h3{
+    font-size: 17px;
+}
+.avaname{
+    padding: 10px 20px;
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.flex3 .Basic ul li,.Pro ul li{
+    list-style: none;
+    border: 1px solid lightgrey;
+    width: 310px;
+    padding: 10px 0;
+}
+.Basic ul li:first-of-type{background-color: darkgrey;
+font-size: 20px;
+}
+.Pro ul li:first-of-type{background-color: black;
+color: white;
+font-size: 20px;
+}
+.Basic ul li:last-of-type, .Pro ul li:last-of-type{
+   background-color: lightgray;
+}
+.Basic ul li a:last-of-type, .Pro ul li a:last-of-type{
+text-decoration: none;
+color: black;
+background-color: white;
+display: inline-block;
+padding: 10px;
+}
+.icon2{
+    display: flex;
+}
+.ico1 i{
+   font-size: 23px;
+   padding-right: 20px;
+   padding: 10px 0;
+   color: grey;
+} 
+.ico2 p{
+    padding: 12px 20px;
+}
+.map{
+    padding: 20px 0;
+    width: 97%;
+}
+.map img{
+    width: 100%;
+    height: 300px;
+}
+.cont{
+    padding: 30px 0;
+}
+.list input{
+    width: 97%;
+    margin: 10px 0;
+    padding: 7px 10px;
+}
+.message{
+    padding: 10px 0;
+    padding-bottom: 80px;
+}
+.message a{
+   text-decoration: none;
+   color: black;
+   background-color: lightgray;
+   padding: 7px;
+} 
+.social{
+    background-color: #dcd8d8;
+    padding-top: 90px;
+    width: 97%;
+}
+.socio{
+    display: flex;
+    justify-content: center;
+}
+.ic i{
+    margin: 0px 3px;
+    font-size: 22px;
+}
+.last{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
